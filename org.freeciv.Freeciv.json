@@ -1,7 +1,7 @@
 {
     "app-id": "org.freeciv.Freeciv",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.24",
+    "runtime-version": "3.26",
     "sdk": "org.gnome.Sdk",
     "finish-args": [
         "--persist=.freeciv",
@@ -34,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://deb.debian.org/debian/pool/main/f/freeciv/freeciv_2.5.7.orig.tar.bz2",
-                    "sha256": "ffe36736db6a64893681e9eea8b90f7abe05eaebe6b777e82149a98cad6dbed2"
+                    "url": "http://ftp.debian.org/debian/pool/main/f/freeciv/freeciv_2.5.10.orig.tar.bz2",
+                    "sha256": "c8a14156562dce2f0a7b96390c2d5a35314f1124c448782a6a47b0c51cfcb302"
                 },
                 {
                     "type": "patch",
