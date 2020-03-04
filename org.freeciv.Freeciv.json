@@ -33,6 +33,10 @@
                     "type": "archive",
                     "url": "http://files.freeciv.org/stable/freeciv-2.6.2.tar.bz2",
                     "sha256": "6181ef3d3c76264383aabbe0eaf1550d8a65ca42639e6c17cc2938165e176c8f"
+                },
+                {
+                    "type": "patch",
+                    "path": "freeciv-appdata.patch"
                 }
             ]
         }
