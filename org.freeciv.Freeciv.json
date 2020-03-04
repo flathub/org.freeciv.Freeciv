@@ -1,7 +1,7 @@
 {
     "app-id": "org.freeciv.Freeciv",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "18.08",
+    "runtime-version": "19.08",
     "sdk": "org.freedesktop.Sdk",
     "finish-args": [
         "--persist=.freeciv",
@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://files.freeciv.org/stable/freeciv-2.6.0.tar.bz2",
-                    "sha256": "7c20399198d6c7d846fed9a69b02e01134ae5340a3ae0f99d1e38063ade6c999"
+                    "url": "http://files.freeciv.org/stable/freeciv-2.6.2.tar.bz2",
+                    "sha256": "6181ef3d3c76264383aabbe0eaf1550d8a65ca42639e6c17cc2938165e176c8f"
                 }
             ]
         }
