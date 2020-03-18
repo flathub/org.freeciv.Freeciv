@@ -1,0 +1,12 @@
+diff -ur freeciv-2.6.2.orig/bootstrap/freeciv-gtk3.22.appdata.xml.in freeciv-2.6.2/bootstrap/freeciv-gtk3.22.appdata.xml.in
+--- freeciv-2.6.2.orig/bootstrap/freeciv-gtk3.22.appdata.xml.in	2020-02-15 16:49:02.000000000 +0100
++++ freeciv-2.6.2/bootstrap/freeciv-gtk3.22.appdata.xml.in	2020-03-04 03:01:50.407995666 +0100
+@@ -20,4 +20,8 @@
+       </screenshot>
+     </screenshots>
+     <update_contact>freeciv-dev@freelists.org</update_contact>
++    <content_rating type="oars-1.1"/>
++    <releases>
++        <release version="2.6.2" date="2020-02-15"/>
++    </releases>
+ </component>
