@@ -1,7 +1,17 @@
 diff -ur freeciv-2.6.3.orig/bootstrap/freeciv-gtk3.22.appdata.xml.in freeciv-2.6.3/bootstrap/freeciv-gtk3.22.appdata.xml.in
 --- freeciv-2.6.3.orig/bootstrap/freeciv-gtk3.22.appdata.xml.in	2020-02-15 16:49:02.000000000 +0100
 +++ freeciv-2.6.3/bootstrap/freeciv-gtk3.22.appdata.xml.in	2020-03-04 03:01:50.407995666 +0100
-@@ -20,4 +20,8 @@
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <component>
+-    <name>Freeciv gtk+-3.22 client</name>
+-    <id>org.freeciv.gtk322</id>
++    <name>Freeciv</name>
++    <id>org.freeciv.Freeciv</id>
+     <metadata_license>CC0</metadata_license>
+     <summary>Gtk+-3.22 based client for the Freeciv game</summary>
+     <description>
+@@ -21,4 +21,8 @@
        </screenshot>
      </screenshots>
      <update_contact>freeciv-dev@freelists.org</update_contact>
