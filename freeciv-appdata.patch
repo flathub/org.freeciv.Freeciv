@@ -12,7 +12,7 @@ diff -ur freeciv-2.6.3.orig/bootstrap/freeciv-gtk3.22.appdata.xml.in freeciv-2.6
      <metadata_license>CC0</metadata_license>
      <summary>Gtk+-3.22 based client for the Freeciv game</summary>
      <description>
-@@ -21,4 +21,9 @@
+@@ -21,4 +21,10 @@
        </screenshot>
      </screenshots>
      <update_contact>freeciv-dev@freelists.org</update_contact>
