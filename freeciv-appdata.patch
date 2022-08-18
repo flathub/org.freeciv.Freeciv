@@ -18,6 +18,7 @@ diff -ur freeciv-2.6.3.orig/bootstrap/freeciv-gtk3.22.appdata.xml.in freeciv-2.6
      <update_contact>freeciv-dev@freelists.org</update_contact>
 +    <content_rating type="oars-1.1"/>
 +    <releases>
++        <release version="2.6.7" date="2022-08-05"/>
 +        <release version="2.6.6" date="2021-12-10"/>
 +        <release version="2.6.3" date="2020-12-31"/>
 +    </releases>

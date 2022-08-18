@@ -1,44 +1,45 @@
 {
-    "app-id": "org.freeciv.Freeciv",
-    "runtime": "org.freedesktop.Platform",
-    "runtime-version": "21.08",
-    "sdk": "org.freedesktop.Sdk",
-    "finish-args": [
-        "--persist=.freeciv",
-        "--share=ipc",
-        "--socket=x11",
-        "--share=network",
-        "--socket=pulseaudio"
-    ],
-    "command": "freeciv-gtk3.22",
-    "rename-appdata-file": "freeciv-gtk3.22.appdata.xml",
-    "rename-desktop-file": "org.freeciv.gtk322.desktop",
-    "rename-icon": "freeciv-client",
-    "cleanup": [
-        "/include",
-        "/lib/pkgconfig",
-        "/share/aclocal",
-        "/share/man",
-        "*.la", "*.a"
-    ],
-    "modules": [
+  "app-id": "org.freeciv.Freeciv",
+  "runtime": "org.freedesktop.Platform",
+  "runtime-version": "21.08",
+  "sdk": "org.freedesktop.Sdk",
+  "finish-args": [
+    "--persist=.freeciv",
+    "--share=ipc",
+    "--socket=x11",
+    "--share=network",
+    "--socket=pulseaudio"
+  ],
+  "command": "freeciv-gtk3.22",
+  "rename-appdata-file": "freeciv-gtk3.22.appdata.xml",
+  "rename-desktop-file": "org.freeciv.gtk322.desktop",
+  "rename-icon": "freeciv-client",
+  "cleanup": [
+    "/include",
+    "/lib/pkgconfig",
+    "/share/aclocal",
+    "/share/man",
+    "*.la",
+    "*.a"
+  ],
+  "modules": [
+    {
+      "name": "freeciv",
+      "config-opts": [
+        "--enable-client=gtk3.22",
+        "--without-freeciv-manual"
+      ],
+      "sources": [
         {
-            "name": "freeciv",
-            "config-opts": [
-                "--enable-client=gtk3.22",
-                "--without-freeciv-manual"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "http://files.freeciv.org/stable/freeciv-2.6.6.tar.bz2",
-                    "sha256": "7bcfe5dd3c081122e7cde7cdb24f57c3681d6a9667496faed207a91ac3165811"
-                },
-                {
-                    "type": "patch",
-                    "path": "freeciv-appdata.patch"
-                }
-            ]
+          "type": "archive",
+          "url": "https://files.freeciv.org/stable/freeciv-2.6.7.tar.bz2",
+          "sha256": "efa7618024b05edee2b9b96614a2070deecb15da7d32e534b135f75fa824f2f7"
+        },
+        {
+          "type": "patch",
+          "path": "freeciv-appdata.patch"
         }
-    ]
+      ]
+    }
+  ]
 }
