@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://files.freeciv.org/stable/freeciv-2.6.6.tar.bz2",
-                    "sha256": "7bcfe5dd3c081122e7cde7cdb24f57c3681d6a9667496faed207a91ac3165811"
+                    "url": "https://files.freeciv.org/stable/freeciv-2.6.7.tar.bz2",
+                    "sha256": "efa7618024b05edee2b9b96614a2070deecb15da7d32e534b135f75fa824f2f7"
                 },
                 {
                     "type": "patch",
